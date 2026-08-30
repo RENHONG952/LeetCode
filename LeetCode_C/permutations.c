@@ -65,4 +65,5 @@ int main() {
     printf("]");
     free(result);
     free(returnColumnSizes);
+    return 0;
 }
