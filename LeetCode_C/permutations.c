@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 void backtrack(int* nums, int numsSize, int* path, int depth, int** result, int* returnSize, int* returnColumnSizes) {
    if (depth == numsSize) {
