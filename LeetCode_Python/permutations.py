@@ -8,6 +8,7 @@ class Solution(object):
         if not nums:
             result.append(path)
             return
+        
         for i in range(len(nums)):
             self.backtrack(nums[:i] + nums[i+1:], path + [nums[i]], result)
 
