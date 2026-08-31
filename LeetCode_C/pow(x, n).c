@@ -13,7 +13,7 @@ double myPow(double x, int n) {
 }
 
 int main() {
-    double x = 2.00000;
+    double x = 4.00000;
     int n = 10;
     double result = myPow(x, n);
     printf("%.5f", result);
