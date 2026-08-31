@@ -19,10 +19,10 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize) {
 }
 
 int main(){
-    int row0[] = {1, 2, 3};
-    int row1[] = {4, 5, 6};
-    int row2[] = {7, 8, 9};
-    int* matrix[] = {row0, row1, row2};
+    int row1[] = {1, 2, 3};
+    int row2[] = {4, 5, 6};
+    int row3[] = {7, 8, 9};
+    int* matrix[] = {row1, row2, row3};
     int matrixSize = sizeof(matrix) / sizeof(matrix[0]);
     int matrixColSize[] = {3, 3, 3};
     rotate(matrix, matrixSize, matrixColSize);
