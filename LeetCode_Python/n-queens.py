@@ -17,7 +17,6 @@ class Solution(object):
             state[row][col] = "Q"
 
             self.backtrack(row + 1, diagonals, anti_diagonals, cols, state, n, result)
-
             cols.remove(col)
             diagonals.remove(diag)
             anti_diagonals.remove(anti_diag)
