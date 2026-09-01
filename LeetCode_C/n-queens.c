@@ -72,7 +72,7 @@ char*** solveNQueens(int n, int* returnSize, int** returnColumnSizes) {
 }
 
 int main() {
-    int n = 4;
+    int n = 6;
     int returnSize;
     int* returnColumnSizes;
     char*** result = solveNQueens(n, &returnSize, &returnColumnSizes);
