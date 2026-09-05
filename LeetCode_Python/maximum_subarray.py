@@ -7,6 +7,6 @@ class Solution(object):
             max_sum = max(max_sum, current_sum)
         return max_sum
 
-nums = [-2,1,-3,4,-1,2,1,-5,4]
+nums = [-2,1,-3,4,-1,2,1,-5]
 sol = Solution()
 print(sol.maxSubArray(nums))
