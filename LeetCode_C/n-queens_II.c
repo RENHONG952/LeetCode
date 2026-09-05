@@ -39,7 +39,7 @@ int totalNQueens(int n) {
 }
 
 int main() {
-    int n = 4;
+    int n = 5;
     int result = totalNQueens(n);
     printf("%d", result);
     return 0;
