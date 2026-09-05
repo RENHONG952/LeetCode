@@ -24,6 +24,6 @@ class Solution(object):
         total = self.backtrack(0, 0, set(), set(), set(), n)
         return total
 
-n = 4
+n = 5
 sol = Solution()
 print(sol.totalNQueens(n))
