@@ -1,1 +1,2 @@
-# ⚙️ C and 🐍 Python LeetCode 演算法 & 資料結構練習
+# ⚙️ C LeetCode 演算法 & 資料結構練紀錄
+# 🐍 Python LeetCode 演算法 & 資料結構練習紀錄
