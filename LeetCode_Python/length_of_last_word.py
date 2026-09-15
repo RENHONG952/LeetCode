@@ -9,6 +9,6 @@ class Solution(object):
 
         return len(final_word)
     
-s = "Hello World"
+s = "Hello World "
 sol = Solution()
 print(sol.lengthOfLastWord(s))
